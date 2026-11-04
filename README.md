@@ -84,3 +84,5 @@ Graphics are plain templates (dark background, indigo accent) until your brand g
 ## Back up your footage
 
 Raw 4K footage is big (roughly 400 MB or more per minute). `raw-footage/` is the working copy Claude reads. Keep a second copy of the originals on an external drive or cloud storage, and delete from the phone or camera only after you've checked the backup. If your Mac is running low on space, move old raw clips to the external drive and keep only the current video's footage in the folder.
+
+**Finished videos** live in `projects/<date>-<name>/exports/` on your computer. They are not uploaded to GitHub (the `.gitignore` skips `projects/` and `raw-footage/` because the files are too big). To back up or share finished videos, copy the `exports/` folder to Google Drive, iCloud, Dropbox, or an external drive.
