@@ -1,0 +1,5 @@
+.DS_Store
+raw-footage/*
+!raw-footage/.gitkeep
+projects/*
+!projects/.gitkeep
